@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Range - Input Element</title>
+  </head>
+  <body>
+    <h1>Range - Input Element</h1>
+    <h3>&lt;label for="volume"&gt; Volume &lt;/label&gt;</h3>
+    <h3>
+      &lt;input type="range" min="0" max="100" name="volume" step="10"&gt;
+    </h3>
+    <hr />
+    <form action="/server">
+      <label for="volume">Volume :</label>
+      <input
+        type="range"
+        name="volume"
+        id="volume"
+        min="0"
+        max="100"
+        step="10"
+        value="60"
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

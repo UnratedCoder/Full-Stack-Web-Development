@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name attribute</title>
+  </head>
+  <body>
+    <h1>Name Attribute</h1>
+    <h3>
+      Name of the form control. Submitted with the form as part of a name/value
+      pair.
+    </h3>
+    <h3>
+      &lt;input type="text" placeholder="enter name" id="username"
+      name="username"&gt;
+    </h3>
+    <hr />
+    <form action="\serve">
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter username"
+      />
+      <br />
+      <br />
+      <label for="password">Password :</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter password"
+      />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      &nbsp;
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
