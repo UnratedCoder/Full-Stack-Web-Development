@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Element (Dropdown)</title>
+  </head>
+  <body>
+    <h1>Select Element (Dropdown)</h1>
+    <h3>&lt;select name="profession" id="profession"&gt;</h3>
+    <h3>&lt;option value="student"&gt; Student &lt;/option&gt;</h3>
+    <h3>&lt;option value="developer"&gt; Developer &lt;/option&gt;</h3>
+    <h3>&lt;/select&gt;</h3>
+    <hr />
+    <form action="/server">
+      <label for="profession">Choose Your Profession</label>
+      <select name="profession" id="profession">
+        <option value="NA">Select your option</option>
+        <option value="Student" selected>Student</option>
+        <option value="Developer">Developer</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

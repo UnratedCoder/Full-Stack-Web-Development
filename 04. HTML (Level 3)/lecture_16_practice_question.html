@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Question</title>
+  </head>
+  <body>
+    <h1>Practice Question</h1>
+    <h3>Recreate the following form with suitable elements & input types</h3>
+    <hr />
+    <h2>Registration Form</h2>
+    <form action="/server">
+      <input type="text" placeholder="First Name" size="15" name="first_name" />
+      <input type="text" placeholder="Last Name" size="15" name="last_name" />
+      <br />
+      <label for="gender">Please select gender</label>
+      <select name="gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <br />
+      <label for="terms">Do you agree to all terms of services?</label>
+      <input type="checkbox" name="terms_of_service" id="terms" value="agree" />
+      <label for="terms">Yes, I agree</label>
+      <br />
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
