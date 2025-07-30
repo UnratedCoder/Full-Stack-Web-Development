@@ -1,0 +1,12 @@
+#first {
+  color: blue;
+}
+
+#second {
+  color: rgb(255, 0, 0);
+}
+
+#third {
+  color: #ff00ff;
+  background-color: #fff;
+}
