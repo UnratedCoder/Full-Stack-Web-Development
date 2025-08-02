@@ -1,0 +1,142 @@
+/* lecture 01 - universal selector */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* lecture 02 - element selector */
+h1 {
+  color: #b92b27;
+}
+
+h3 {
+  color: purple;
+}
+
+/* lecture 03 - id selector */
+#login {
+  background-color: white;
+  font-weight: bold;
+}
+
+#signup {
+  background-color: #b92b27;
+  color: white;
+  font-weight: bold;
+}
+
+/* lecture 04 - class selector */
+.upvote {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+/* lecture 05 - practice question */
+/* inline style done in html file */
+
+/* lecture 06 - descendant selector */
+.post a {
+  text-decoration: none;
+  background-color: burlywood;
+}
+
+nav ul li {
+  color: rgb(2, 238, 255);
+}
+
+/* lecture 07 - adjacent sibling combinator */
+.post + h3 {
+  text-decoration: underline;
+}
+
+.upvote + button {
+  background-color: cornflowerblue;
+  color: black;
+  font-weight: bold;
+}
+
+/* lecture 08 - child combinator*/
+div > input {
+  background-color: skyblue;
+}
+
+/* lecture 09 - attribute selector */
+input[type="text"] {
+  color: green;
+}
+
+input[type="password"] {
+  color: red;
+}
+
+input[type] {
+  background-color: ghostwhite;
+}
+
+/* lecture 10 - practice question */
+/* inline style done in html file */
+
+/* lecture 11 - pseudo class */
+h3:hover {
+  text-decoration: none;
+}
+
+.post a:hover {
+  color: red;
+}
+
+button:active {
+  background-color: hotpink;
+  color: black;
+}
+
+input[type="radio"]:checked + label {
+  color: green;
+  font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+  background-color: blanchedalmond;
+}
+
+/* lecture 12 - pseudo element*/
+footer::first-letter {
+  color: red;
+  font-weight: bold;
+}
+
+footer::first-line {
+  color: hotpink;
+}
+
+body::selection {
+  background-color: yellowgreen;
+}
+
+/* lecture 13 - cascading stylesheet */
+h3 {
+  background-color: yellow;
+}
+
+h3 {
+  background-color: violet;
+}
+
+/* lecture 14 - practice question */
+/* inline style done in html file */
+
+/* lecture 15 - !important */
+
+h3 {
+  background-color: pink !important;
+}
+
+h3 {
+  background-color: aqua;
+}
+
+/* lecture 16 - inheritance */
+/* inline style done in html file */
+
+/* lecture 17 - assignment questions */
+/* inline style done in html file */

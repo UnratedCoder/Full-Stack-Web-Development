@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS: Cascading stylesheet</title>
+  </head>
+  <body>
+    <h1 style="text-decoration: underline">CSS: Cascading Stylesheet</h1>
+    <h2>What is cascade in css?</h2>
+    <h3>
+      The CSS cascade algorithm's job is to select CSS declarations in order to
+      determine the correct values for CSS properties.
+    </h3>
+    <h3>h2 &lcub;</h3>
+    <h3>background-color: yellow;</h3>
+    <h3>&rcub;</h3>
+    <h3>h2 &lcub;</h3>
+    <h3>background-color: blue;</h3>
+    <h3>&rcub;</h3>
+    <h3>so final color is blue</h3>
+    <hr />
+    <h1>Selector Specificity</h1>
+    <h2>What is specificity?</h2>
+    <h3>
+      Specificity is an algorithm that calculates the weight that is applied to
+      a given CSS declaration.
+    </h3>
+    <h3>id &gt; class &gt; element</h3>
+    <h2>what to remember?</h2>
+    <ul>
+      <li>
+        <h3>id &gt; class &gt element</h3>
+      </li>
+      <li>
+        <h3>more selectors &gt; less selectors</h3>
+      </li>
+      <li>
+        <h3>if specificity same &rArr; cascading (last one is applied)</h3>
+      </li>
+    </ul>
+    <hr />
+    <h1>Inline Specificity</h1>
+    <h3>Inline styles are more specific than id</h3>
+    <h3>inline style &gt; id &gt; class &gt; element</h3>
+  </body>
+</html>
