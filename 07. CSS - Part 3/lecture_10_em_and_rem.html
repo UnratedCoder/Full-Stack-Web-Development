@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative Unit - Em and Rem</title>
+    <style>
+      #outer {
+        height: 400px;
+        width: 400px;
+        border: 2px solid black;
+        background-color: pink;
+        font-size: 20px;
+      }
+      #inner {
+        height: 150px;
+        width: 150px;
+        background-color: cornflowerblue;
+        font-size: 1.5em;
+        padding: 1em;
+      }
+      button {
+        font-size: 40px;
+        border-radius: 15px;
+        border: 5px solid green;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+      section {
+        font-size: 20px;
+      }
+      div {
+        font-size: 2em;
+      }
+      div {
+        font-size: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Relative Unit - Em and Rem</h1>
+    <h2>Em</h2>
+    <h3>
+      Relate to font size of the parent, in the case of typographical properties
+      like font-size, and font size of the element itself, in the case of other
+      properties like width.
+    </h3>
+    <hr />
+    <div id="outer">
+      This is a Outer Div
+      <div id="inner">This is a Inner Div</div>
+    </div>
+    <button>Click</button>
+    <hr />
+    <h1>Drawback of Em</h1>
+    <h3>Snowball effect in nested elements</h3>
+    <hr />
+    <section>
+      Section
+      <div>
+        Div 1
+        <div>
+          Div 2
+          <div>Div 3</div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <h1>Rem (Root Em)</h1>
+    <h3>Relate to font size of the root element</h3>
+  </body>
+</html>
