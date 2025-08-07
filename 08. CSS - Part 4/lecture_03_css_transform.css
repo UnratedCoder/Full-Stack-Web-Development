@@ -1,0 +1,37 @@
+div {
+  height: 100px;
+  width: 200px;
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#rotate {
+  transform: rotate(30deg);
+}
+
+div:nth-of-type(2n) {
+  background-color: bisque;
+}
+
+#scale {
+  transform: scale(1.5);
+  transform: scaleX(0.5);
+  transform: scaleY(0.5);
+  /* transform: scale(1.5, 2); */
+}
+
+#translate {
+  /* transform: translate(10px, 10px); */
+  transform: translateY(50px);
+  transform: translateX(100px);
+}
+
+#skew {
+  transform: skew(30deg);
+}
+
+#more {
+  transform: rotate(30deg) scale(1.5) skew(10deg) translate(20px, 20px);
+}

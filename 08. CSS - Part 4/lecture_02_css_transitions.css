@@ -1,0 +1,26 @@
+.first {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  border: 2px solid black;
+  transition: 2s;
+  transition-duration: 2s;
+}
+
+.first:hover {
+  background-color: hotpink;
+  border-radius: 50%;
+}
+
+.second {
+  height: 100px;
+  width: 100px;
+  background-color: hotpink;
+  border: 2px solid black;
+  transition: margin-left 2s linear 0.2s;
+}
+
+.second:hover {
+  margin-left: 300px;
+  background-color: green;
+}
